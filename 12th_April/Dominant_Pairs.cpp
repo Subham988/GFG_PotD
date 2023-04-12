@@ -1,3 +1,7 @@
+#include<algorithm>
+#include<iostream>
+using namespace std;
+
 
 #include<vector>
 class Solution{
