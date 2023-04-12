@@ -46,3 +46,4 @@ vector<array<long long,2>> help(vector<int> &a){
           ans=min(ans,max({x[i][0],x[i][1], y[i+1][0],y[i+1][1]}) - min({x[i][0],x[i][1], y[i+1][0],y[i+1][1]}));
         }
         return ans;
+    }
