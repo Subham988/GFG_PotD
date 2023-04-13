@@ -1,1 +1,6 @@
+
+void quicksort(){
+}
+
+
 hello ji kaise ho sare k sare 
