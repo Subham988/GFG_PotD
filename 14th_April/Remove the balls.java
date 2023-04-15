@@ -16,7 +16,6 @@ class Solution {
                 rad.add(radius[i]);
             }
         }
-        
         return col.size();
     }
 }
