@@ -1,5 +1,6 @@
 class Solution {
   public:
+  
     int totalTime(int n, vector<int> &arr, vector<int> &time) {
         // code here
         unordered_set<int> list;
