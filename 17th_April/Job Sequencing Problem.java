@@ -1,6 +1,5 @@
 class Solution
 {
-    //Function to find the maximum profit and the number of jobs done.
     int[] JobScheduling(Job arr[], int n)
     {
         // Your code here
