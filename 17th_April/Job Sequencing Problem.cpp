@@ -1,7 +1,6 @@
 class Solution 
 {
     public:
-    //Function to find the maximum profit and the number of jobs done.
     vector<int> JobScheduling(Job arr[], int n) 
     { 
     // Your code here
