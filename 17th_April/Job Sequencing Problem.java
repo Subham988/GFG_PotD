@@ -13,7 +13,7 @@ class Solution
         int[] slots = new int[maxDeadline+1];
         Arrays.fill(slots,-1);
         
-        int[] ans = {0,0} ; //ans[0]=count , ans[1] = profit
+        int[] ans = {0,0} ;
         
         for(Job j : arr){
             for(int i=j.deadline ; i>0 ; i--){
