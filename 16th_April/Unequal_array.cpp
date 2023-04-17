@@ -27,7 +27,6 @@ class Solution {
                 odd_B.push_back(B[i]);
             }
         }
-
         if (sumOfA != sumOfB) return -1;
 
         if (evenA != evenB || oddA != oddB) return -1;
