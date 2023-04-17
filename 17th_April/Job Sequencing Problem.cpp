@@ -14,7 +14,7 @@ class Solution
     int slots[maxDeadline+1];
     memset(slots, -1, sizeof(slots));
 
-    vector<int> ans(2) ; //ans[0]=count , ans[1] = profit
+    vector<int> ans(2) ; 
     ans[0] = 0;
     ans[1] = 0;
 
