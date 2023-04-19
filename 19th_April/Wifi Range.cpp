@@ -1,7 +1,6 @@
 class Solution{
     public:
     bool wifiRange(int N, string S, int X){
-        // code here
         int fre[N+1]={0};
         for(int i=0;i<N;i++){
             if(S[i]=='1'){
