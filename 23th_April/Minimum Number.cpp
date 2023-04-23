@@ -1,7 +1,6 @@
 class Solution{
 public:
     int minimumNumber(int n,vector<int> &arr){
-        // Code here
          int g = 0;
     for (int i = 0; i < n; i++)
     {
