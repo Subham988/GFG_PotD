@@ -1,4 +1,3 @@
-//User function Template for C++
 struct Node
 {
     Node *links[26];
