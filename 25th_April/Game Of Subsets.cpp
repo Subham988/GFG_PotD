@@ -23,7 +23,6 @@ public:
             else mp[i]++;
         }
         dp[0]=1;
-        //counting
         for(auto i:mp){
             if(v[i.first]){
                 for(int j=0;j<(1<<10);j++){
