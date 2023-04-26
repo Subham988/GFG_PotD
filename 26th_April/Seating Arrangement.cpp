@@ -10,12 +10,10 @@ class Solution{
                 seats[i] = 1;
             }
             i++;
-        }
-        
+        }   
         if(n){
             return false;
         }
         return true;
-    }
-    
+    }  
 };
