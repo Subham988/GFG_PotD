@@ -1,7 +1,6 @@
 class Solution{
 public:
     long long findNumber(long long N){
-        // Code here
            long long ans = 0;
         vector<int> base5;
         while(N > 0) {
