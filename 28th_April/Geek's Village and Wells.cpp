@@ -3,7 +3,6 @@ public:
     int dx[4] = {-1, 1, 0, 0};
     int dy[4] = {0, 0, -1, 1};
     vector<vector<int>> chefAndWells(int n,int m,vector<vector<char>> &c){
-        // Code here
         vector<vector<int>> dist(n, vector<int>(m, -1));
         vector<vector<bool>> vis(n, vector<bool>(m, false));
         queue<pair<int, int>> q;
